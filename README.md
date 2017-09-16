@@ -45,7 +45,8 @@ Produces:
 
 # Return an OrderedDict with original ordering from Excel file of columns
 # maintained.
->>> pprint(xlhelper.sheet_to_dict(xlpath, keep_order=True))
+>>> for i in xlhelper.sheet_to_dict(xlpath, keep_order=True))
+...   pprint(i)
 
 OrderedDict([('ID', 1),
              ('Product Name', 'Whizbang 5000'),
